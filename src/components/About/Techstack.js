@@ -8,6 +8,8 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiPhp,
+  
 } from "react-icons/di";
 import {
   SiPytorch,
@@ -15,17 +17,20 @@ import {
   SiNextdotjs,
 } from "react-icons/si";
 
+import { FaLaravel } from "react-icons/fa";
+
+
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiPhp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <FaLaravel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
